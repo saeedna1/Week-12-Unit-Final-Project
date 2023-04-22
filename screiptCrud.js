@@ -1,10 +1,7 @@
 //This variable is used to keep track of the row that is currently being edited.
 let selectedRow = null;
 
-//API
-const URL_ENDPOINT ="http://localhost:3000/studentRoster"
 
-$.get(URL_ENDPOINT).then(data => console.log(data))
 
 
 
@@ -104,5 +101,7 @@ fetch('https://644047cc792fe886a88bff46.mockapi.io/CrudAPP')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error(error));
+  
+ 
 */
 
